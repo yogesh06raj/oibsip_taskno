@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 0.6rem 0;
+  background: #9595b8;
+  width: 100%;
+}
+
+nav .menu {
+  width: 100%;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu .logo a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0f483f;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.2rem;
+}
+
+.menu ul a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  color: #0f483f;
+  transition: all 0.3s ease;
+}
+.menu ul a:hover {
+  background: #c17a7a;
+  color: aqua;
+}
+
+.menu .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #ffff;
+  height: 2.5rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.menu .btn img {
+  width: 2.5rem;
+  padding: 0.5rem 0.2rem;
+}
+
+.menu .btn a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #0f483f;
+}
+.home {
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  background: #300156;
+}
+
+.home .main {
+  margin: 25px 40px;
+  width: 50%;
+}
+
+.main h1,
+.build-thing {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.main-slogan,
+.developer {
+  padding: 10px 0;
+  color: rgb(174, 9, 204);
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.main .social-icons {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.icon-container {
+  width: 50px;
+  height: 50px;
+  margin: 0 25px 0 0;
+  border-radius: 50%;
+  background: #52027a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container img {
+  height: 25px;
+  cursor: pointer;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 5rem;
+  background: #360233;
+}
+
+.info-container .experince {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.experince .three {
+  padding: 0 10px;
+}
+
+.icon-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-section img {
+  height: 3.5rem;
+  padding: 0 15px;
+}
+
+.about-container {
+  display: flex;
+  background: #320755;
+  padding: 20px 15px;
+}
+
+.content {
+  width: 50%;
+}
+.content .about {
+  text-align: center;
+  font-size: 40px;
+  color: #ffff;
+}
+.contentIn {
+  padding: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffff;
+}
+
+.skill-container h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+.main-container .skill-icons {
+  margin: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.skill-icons img {
+  width: 10rem;
+  margin: 10px;
+}
+.skill-icons img.js {
+  width: 8rem;
+}
+.projects {
+  background: #320755;
+  width: 100%;
+}
+.projects h1 {
+  color: #ffff;
+  text-align: center;
+  font-size: 40px;
+}
+.projects ul {
+  width: 75%;
+  padding: 30px 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.projects ul li {
+  list-style: none;
+  text-align: center;
+}
+.projects ul li.card {
+  width: 28%;
+  margin: 0 10px;
+  background: #fff;
+  border-radius: 20px;
+}
+li.card h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+li.card img {
+  height: 16rem;
+  width: 14rem;
+}
+li.card .btns button {
+  background: #073ed6;
+  border-radius: 10px;
+  border: none;
+  width: 70px;
+  height: 40px;
+  font-size: 20px;
+  margin: 5px;
+}
+.btns button a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.contactContainer {
+  background: #320755;
+  width: 100%;
+}
+.formContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  margin: auto;
+}
+.contactContainer h1 {
+  color: #ffff;
+  text-align: center;
+  font-size: 40px;
+}
+.formContainer label {
+  text-align: left;
+  margin: 10px 0;
+  color: #ffff;
+  font-size: 20px;
+}
+.formContainer input,
+.formContainer textarea {
+  height: 35px;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  padding: 0 1rem;
+  background: #d8d8d8;
+  border-radius: 0.3rem;
+  resize: none;
+}
+.formContainer button {
+  margin: 10px 0 10px 80px;
+  color: #fff;
+  font-size: 0.8rem;
+  background: #3e2093;
+  height: 2rem;
+  width: 5rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
